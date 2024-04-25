@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+#subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
@@ -18,6 +18,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a researcher at the Institute of Education at the University of Zurich. My research interests include learning, decision making, and the development of methods for the analysis of neuroimaging and behavioral data. 
+I am a researcher at the **Institute of Education** at the **University of Zurich**. 
+
+My research interests include **learning**, **decision making**, and the development of methods for the analysis of **neuroimaging** and **behavioral** data. 
 
 
