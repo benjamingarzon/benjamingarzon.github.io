@@ -17,6 +17,8 @@ Advanced Python Usage. Course for PhD students. University of Zurich.
 
 The science of expert performance. Course for Master students. Course for PhD students. University of Zurich. 
 
+
+
 ### **past**
 
 **2024** 
