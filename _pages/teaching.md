@@ -11,36 +11,37 @@ nav_order: 2
 
 **fall 2024**
 
-Perspectives on human and machine intelligence. Course for PhD students. University of Zurich.  
+Perspectives on human and machine intelligence. PhD course. University of Zurich.  
 
-Advanced Python Usage. Course for PhD students. University of Zurich. 
+Advanced Python Usage. PhD course. University of Zurich. 
 
-The science of expert performance. Course for Master students. Course for PhD students. University of Zurich. 
+The science of expert performance. Master course. University of Zurich. 
 
-
+\
+\
 
 ### **past**
 
 **2024** 
 
-Network Analysis in Psychology and Social Sciences. Course for PhD students. University of Zurich. 
+Network analysis in psychology and social sciences. PhD course. University of Zurich. 
 
 **2023** 
 
-Interdisciplinary perspectives on human and machine intelligence. Course for Master students. University of Zurich.
+Interdisciplinary perspectives on human and machine intelligence. Master course. University of Zurich.
 
-Introduction to machine learning. Course for PhD students. University of Zurich. 
+Introduction to machine learning. PhD course. University of Zurich. 
 
-Introduction to programming with Python. Course for PhD students. University of Zurich. 
+Introduction to programming with Python. PhD course. University of Zurich. 
 
 **2019**
 
-Computational modelling for cognitive neuroscience and psychiatry research. Course for PhD students. Karolinska Institute. 
+Computational modelling for cognitive neuroscience and psychiatry research. PhD course. Karolinska Institute. 
 
 **2018** 
 
-Computational modelling and data analysis for cognitive neuroscience. Course for PhD students. Karolinska Institute. 
+Computational modelling and data analysis for cognitive neuroscience. PhD course. Karolinska Institute. 
 
 **2012-2013**
 
-Seminars on neuroimaging analysis for PhD students and postdocs. Karolinska Institute. 
+Neuroimaging analysis. PhD seminars. Karolinska Institute. 
