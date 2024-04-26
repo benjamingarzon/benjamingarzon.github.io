@@ -13,11 +13,12 @@ nav_order: 2
 
 Perspectives on human and machine intelligence. PhD course. University of Zurich.  
 
-Advanced Python Usage. PhD course. University of Zurich. 
+Advanced Python usage. PhD course. University of Zurich. 
 
 The science of expert performance. Master course. University of Zurich. 
 
-\ 
+
+
 
 ### **past**
 
