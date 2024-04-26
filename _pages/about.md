@@ -20,6 +20,6 @@ social: true # includes social icons at the bottom of the page
 
 I am a researcher at the **Institute of Education** at the **University of Zurich**. 
 
-My research interests include **learning**, **decision making**, and the development of methods for the analysis of **neuroimaging** and **behavioral** data. 
+My research interests include **skill learning**, **decision making**, and the development of analysis methods for **neuroimaging** and **behavioural** data. 
 
 
