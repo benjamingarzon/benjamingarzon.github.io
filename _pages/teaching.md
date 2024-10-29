@@ -7,22 +7,10 @@ nav: true
 nav_order: 2
 ---
 
-### **upcoming**
-
-**fall 2024**
-
+**2024**
 Perspectives on human and machine intelligence. PhD course. University of Zurich.  
 
 Advanced Python usage. PhD course. University of Zurich. 
-
-The science of expert performance. Master course. University of Zurich. 
-
-
-
-
-### **past**
-
-**2024** 
 
 Network analysis in psychology and social sciences. PhD course. University of Zurich. 
 
