@@ -8,6 +8,7 @@ nav_order: 2
 ---
 
 **2024**
+
 Perspectives on human and machine intelligence. PhD course. University of Zurich.  
 
 Advanced Python usage. PhD course. University of Zurich. 
