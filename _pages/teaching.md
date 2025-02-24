@@ -7,6 +7,10 @@ nav: true
 nav_order: 2
 ---
 
+**2025**
+
+Transforming Education with Machine Learning: Practical Applications and Case Studies. Workshop. Applied Machine Learning Days, EPFL.
+
 **2024**
 
 Perspectives on human and machine intelligence. PhD course. University of Zurich.  
