@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I work as a research associate at the [Zurich Center for Neuroeconomics](https://www.zne.uzh.ch/en.html) at the [University of Zurich](www.uzh.ch). 
+I work as a research associate at the [Zurich Center for Neuroeconomics](https://www.zne.uzh.ch/en.html) at the [University of Zurich](https://www.uzh.ch). 
 
 My research interests include:
 
