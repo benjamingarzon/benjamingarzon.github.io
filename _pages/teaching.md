@@ -7,7 +7,13 @@ nav: true
 nav_order: 2
 ---
 
+**2026**
+
+Introduction to programming with Python. PhD course. University of Zurich. 
+
 **2025**
+
+Cognitive modelling. Lecture and workshop. Neuroimaging Methods Symposium. University of Gothenburg. 
 
 Transforming Education with Machine Learning: Practical Applications and Case Studies. Workshop. Applied Machine Learning Days, EPFL.
 
