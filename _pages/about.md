@@ -24,5 +24,6 @@ My research interests include:
 
 - learning and neuroplasticity
 - analysis methods for neuroimaging and behavioural data
-- decision making 
+- decision making
+- collective learning
 - quantitative methods in education
