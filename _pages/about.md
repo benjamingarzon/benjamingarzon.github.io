@@ -18,12 +18,22 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I work as a research associate at the [Zurich Center for Neuroeconomics](https://www.zne.uzh.ch/en.html) at the [University of Zurich](https://www.uzh.ch).
+With 20+ years of expertise across neuroimaging, neuroeconomics, cognitive neuroscience and quantitative education, I help organizations to obtain evidence-based insight. Having held research roles at leading institutions such as the Karolinska Institute (Sweden) and University of Zurich (Switzerland), I bring academic rigour to real-world challenges. I can support your organization in the following areas:
 
-My research interests include:
+- **Data analysis & interpretation**: making sense of complex datasets
+- **Research design &amp; methodology**: building studies that hold up to scrutiny
+- **Training &amp; capacity building**: upskilling your team in quantitative methods
+- **Grant review &amp; evaluation**: providing expert assessment for funding agencies
 
-- learning and neuroplasticity
-- analysis methods for neuroimaging and behavioural data
-- decision making
-- collective learning
-- quantitative methods in education
+Get in touch with me via LinkedIn if you want to work together. 
+
+
+# I work as a research associate at the [Zurich Center for Neuroeconomics](https://www.zne.uzh.ch/# en.html) at the [University of Zurich](https://www.uzh.ch).
+
+# My research interests include:
+
+# - learning and neuroplasticity
+# - analysis methods for neuroimaging and behavioural data
+# - decision making
+# - collective learning
+# - quantitative methods in education
