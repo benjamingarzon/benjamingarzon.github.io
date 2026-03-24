@@ -37,4 +37,5 @@ I can support your organization in the following areas:
 - **Research design &amp; methodology**: building studies that hold up to scrutiny
 - **Training &amp; capacity building**: upskilling your team in quantitative methods
 - **Grant review &amp; evaluation**: providing expert assessment for funding agencies
-  Get in touch with me via [LinkedIn](https://www.linkedin.com/in/benjam%C3%ADn-garz%C3%B3n-73a09b12) if you want to work together.
+
+Get in touch with me via [LinkedIn](https://www.linkedin.com/in/benjam%C3%ADn-garz%C3%B3n-73a09b12) if you want to work together.
