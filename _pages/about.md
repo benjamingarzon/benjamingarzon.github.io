@@ -29,7 +29,7 @@ social: true # includes social icons at the bottom of the page
 #-->
 ---
 
-With 20 years of expertise across neuroimaging, neuroeconomics, cognitive neuroscience and quantitative education, I help organizations to obtain evidence-based insight. Having held research roles at leading institutions such as the Karolinska Institute (Sweden) and University of Zurich (Switzerland), I bring academic rigour to real-world challenges.
+With 20 years of expertise across neuroimaging, neuroeconomics, cognitive neuroscience, and quantitative methods in education, and a strong data science background, I help organisations to obtain evidence-based insight. Having held research roles at leading institutions such as the Karolinska Institute (Sweden) and University of Zurich (Switzerland), I bring academic rigour to real-world challenges.
 
 I can support your organization in the following areas:
 
