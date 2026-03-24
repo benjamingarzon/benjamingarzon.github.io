@@ -26,8 +26,9 @@ With 20+ years of expertise across neuroimaging, neuroeconomics, cognitive neuro
 - **Grant review &amp; evaluation**: providing expert assessment for funding agencies
 
 Get in touch with me via LinkedIn if you want to work together.
+
 ```markdown
-<!-- 
+<!--
 # I work as a research associate at the [Zurich Center for Neuroeconomics](https://www.zne.uzh.ch/# en.html) at the [University of Zurich](https://www.uzh.ch).
 
 # My research interests include:
