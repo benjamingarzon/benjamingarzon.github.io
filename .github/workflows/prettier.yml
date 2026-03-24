@@ -17,19 +17,52 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Setup Node.js ⚙️
         uses: actions/setup-node@v4
       - name: Install Prettier 💾
         run: npm install --save-dev --save-exact prettier @shopify/prettier-plugin-liquid
+      - name: Determine changed files 📂
+        id: changed-files
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            BASE_SHA="${{ github.event.pull_request.base.sha }}"
+            FILES="$(git diff --name-only --diff-filter=ACMR "$BASE_SHA" "${{ github.sha }}" | tr '\n' ' ')"
+          else
+            BASE_SHA="${{ github.event.before }}"
+            if [ "$BASE_SHA" = "0000000000000000000000000000000000000000" ]; then
+              FILES="$(git diff-tree --no-commit-id --name-only --diff-filter=ACMR -r "${{ github.sha }}" | tr '\n' ' ')"
+            else
+              FILES="$(git diff --name-only --diff-filter=ACMR "$BASE_SHA" "${{ github.sha }}" | tr '\n' ' ')"
+            fi
+          fi
+
+          echo "files=$FILES" >> "$GITHUB_OUTPUT"
       - name: Prettier Check 🔎
         id: prettier
-        run: npx prettier . --check
+        shell: bash
+        run: |
+          FILES="${{ steps.changed-files.outputs.files }}"
+          if [ -z "$FILES" ]; then
+            echo "No changed files to lint."
+            exit 0
+          fi
+
+          npx prettier --check $FILES
       - name: Create diff 📝
         # https://docs.github.com/en/actions/learn-github-actions/expressions#failure
         if: ${{ failure() }}
+        shell: bash
         run: |
-          npx prettier . --write
-          git diff -- . ':(exclude)package-lock.json' ':(exclude)package.json' > diff.txt
+          FILES="${{ steps.changed-files.outputs.files }}"
+          if [ -z "$FILES" ]; then
+            echo "No changed files to format." > diff.txt
+          else
+            npx prettier --write $FILES
+            git diff -- $FILES > diff.txt
+          fi
           npm install -g diff2html-cli
           diff2html -i file -s side -F diff.html -- diff.txt
       - name: Upload html diff ⬆️
