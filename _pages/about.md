@@ -25,15 +25,18 @@ With 20+ years of expertise across neuroimaging, neuroeconomics, cognitive neuro
 - **Training &amp; capacity building**: upskilling your team in quantitative methods
 - **Grant review &amp; evaluation**: providing expert assessment for funding agencies
 
-Get in touch with me via LinkedIn if you want to work together. 
-
+Get in touch with me via LinkedIn if you want to work together.
 
 # I work as a research associate at the [Zurich Center for Neuroeconomics](https://www.zne.uzh.ch/# en.html) at the [University of Zurich](https://www.uzh.ch).
 
 # My research interests include:
 
 # - learning and neuroplasticity
+
 # - analysis methods for neuroimaging and behavioural data
+
 # - decision making
+
 # - collective learning
+
 # - quantitative methods in education
