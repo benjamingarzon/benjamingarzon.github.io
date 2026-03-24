@@ -29,17 +29,21 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "pull_request" ]; then
             BASE_SHA="${{ github.event.pull_request.base.sha }}"
-            FILES="$(git diff --name-only --diff-filter=ACMR "$BASE_SHA" "${{ github.sha }}" | tr '\n' ' ')"
+            FILES="$(git diff --name-only --diff-filter=ACMR "$BASE_SHA" "${{ github.sha }}")"
           else
             BASE_SHA="${{ github.event.before }}"
             if [ "$BASE_SHA" = "0000000000000000000000000000000000000000" ]; then
-              FILES="$(git diff-tree --no-commit-id --name-only --diff-filter=ACMR -r "${{ github.sha }}" | tr '\n' ' ')"
+              FILES="$(git diff-tree --no-commit-id --name-only --diff-filter=ACMR -r "${{ github.sha }}")"
             else
-              FILES="$(git diff --name-only --diff-filter=ACMR "$BASE_SHA" "${{ github.sha }}" | tr '\n' ' ')"
+              FILES="$(git diff --name-only --diff-filter=ACMR "$BASE_SHA" "${{ github.sha }}")"
             fi
           fi
 
-          echo "files=$FILES" >> "$GITHUB_OUTPUT"
+          {
+            echo "files<<EOF"
+            printf '%s\n' "$FILES"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
       - name: Prettier Check 🔎
         id: prettier
         shell: bash
@@ -50,7 +54,13 @@ jobs:
             exit 0
           fi
 
-          npx prettier --check --ignore-unknown $FILES
+          mapfile -t files < <(printf '%s\n' "$FILES" | sed '/^$/d')
+          if [ "${#files[@]}" -eq 0 ]; then
+            echo "No changed files to lint."
+            exit 0
+          fi
+
+          npx prettier --check --ignore-unknown "${files[@]}"
       - name: Create diff 📝
         # https://docs.github.com/en/actions/learn-github-actions/expressions#failure
         if: ${{ failure() }}
@@ -60,8 +70,13 @@ jobs:
           if [ -z "$FILES" ]; then
             echo "No changed files to format." > diff.txt
           else
-            npx prettier --write --ignore-unknown $FILES
-            git diff -- $FILES > diff.txt
+            mapfile -t files < <(printf '%s\n' "$FILES" | sed '/^$/d')
+            if [ "${#files[@]}" -eq 0 ]; then
+              echo "No changed files to format." > diff.txt
+            else
+              npx prettier --write --ignore-unknown "${files[@]}"
+              git diff -- "${files[@]}" > diff.txt
+            fi
           fi
           npm install -g diff2html-cli
           diff2html -i file -s side -F diff.html -- diff.txt
